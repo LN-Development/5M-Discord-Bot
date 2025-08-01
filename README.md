@@ -1,6 +1,6 @@
 # ATENÇÃO - PROJETO DE TESTE
 
-_Este projeto constitui uma série de estudos que estou realizando sobre a capacidade das IA's para automatização de serviço ou simplificação de atividades. Este Bot é 100% feito pelo Gemini Pro 2.5, em nenhum momento programei de diretamente ou fiz correções de código._
+_Este projeto constitui uma série de estudos que estou realizando sobre a capacidade das IA's para automatização de serviço ou simplificação de atividades. Este Bot é 100% feito pelo Gemini Pro 2.5, em nenhum momento programei diretamente ou fiz correções de código._
 
 # Bot de Gestão para Servidores Discord
 
