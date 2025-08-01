@@ -1,0 +1,16 @@
+{
+  "title": "Unidades em Serviço",
+  "description": "Utilize os botões abaixo para gerenciar sua participação nas unidades. \nAtente-se as regras para criação de unidade.\nUse o Código entre parênteses para entrar em uma unidade.",
+  "no_units_description": "Nenhuma unidade criada ainda. Use o botão 'Criar Unidade' para começar!\n\nAtente-se as regras para criação de unidade.",
+  "color": "#242429",
+  "footer": {
+    "text": "Sistema de Unidades v1.0",
+    "icon_url": "https://cdn.discordapp.com/attachments/1395593810251350020/1395924896898486302/image.png?ex=687e321e&is=687ce09e&hm=3cc6ceb34058b935c86d14293bf53cc6945200e95ba2901e0613ee987b54375c&"
+  },
+  "thumbnail": {
+    "url": "https://cdn.discordapp.com/attachments/1395593810251350020/1395924896898486302/image.png?ex=687e321e&is=687ce09e&hm=3cc6ceb34058b935c86d14293bf53cc6945200e95ba2901e0613ee987b54375c&"
+  },
+  "image": {
+    "url": null
+  }
+}

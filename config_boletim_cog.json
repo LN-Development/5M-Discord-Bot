@@ -1,0 +1,13 @@
+{
+  "GUILD_ID": 1395557882191151126,
+  "LOG_CHANNEL_ID": 1395557885244608543,
+  "ADMIN_ROLE_ID": 1395557882388287556,
+  "PANEL_EMBED": {
+    "title": "Painel de Criação de Boletim Interno",
+    "description": "Utilize o botão abaixo para preencher e publicar o Boletim Interno do dia.",
+    "color": "#242429",
+    "footer": {
+      "text": "Polícia Federal - Boletim Interno"
+    }
+  }
+}

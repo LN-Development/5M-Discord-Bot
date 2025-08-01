@@ -1,0 +1,45 @@
+{
+  "title": "Ponto Eletrônico - Polícia Federal",
+  "description": "Utilize os botões abaixo para iniciar ou finalizar sua sessão de trabalho.\n\nLembre-se de estar no canal de voz correto.",
+  "url": null,
+  "color": "#242429",
+  "footer": {
+    "text": "Sistema de Ponto v2.0",
+    "icon_url": "https://cdn.discordapp.com/attachments/1395593810251350020/1395924896898486302/image.png?ex=687e321e&is=687ce09e&hm=3cc6ceb34058b935c86d14293bf53cc6945200e95ba2901e0613ee987b54375c&"
+  },
+  "thumbnail": {
+    "url": "https://cdn.discordapp.com/attachments/1395593810251350020/1395924896898486302/image.png?ex=687e321e&is=687ce09e&hm=3cc6ceb34058b935c86d14293bf53cc6945200e95ba2901e0613ee987b54375c&"
+  },
+  "image": {
+    "url": null
+  },
+  "fields": [
+    {
+      "name": "Como Funciona?",
+      "value": "1. Entre no canal de voz de Plantão.\n2. Clique em 'Abrir Ponto' para iniciar.\n3. Saia do canal ou clique em 'Fechar Ponto' para finalizar.",
+      "inline": false
+    },
+    {
+      "name": "Suporte",
+      "value": "Contate um integrante da DGP.",
+      "inline": true
+    },
+    {
+      "name": "Aviso",
+      "value": "O uso indevido é sujeito a penalidades.",
+      "inline": true
+    }
+  ],
+  "buttons": {
+    "clock_in": {
+      "label": "▶️ Abrir Ponto",
+      "style": "success",
+      "emoji": null
+    },
+    "clock_out": {
+      "label": "⏹️ Fechar Ponto",
+      "style": "danger",
+      "emoji": null
+    }
+  }
+}

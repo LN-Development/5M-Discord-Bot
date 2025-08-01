@@ -1,0 +1,56 @@
+2025-07-31 23:25:34,655:INFO:discord_bot: Procurando por cogs para carregar...
+2025-07-31 23:25:34,666:INFO:discord_bot: Cog 'StatusCog' carregado e tarefa de atualização iniciada.
+2025-07-31 23:25:34,666:INFO:discord_bot: Cog 'cogs.status_cog' carregado com sucesso.
+2025-07-31 23:25:34,671:INFO:discord_bot: View 'ClockView' persistente registrada.
+2025-07-31 23:25:34,672:INFO:discord_bot: Banco de dados do Ponto verificado/configurado.
+2025-07-31 23:25:34,672:INFO:discord_bot: Cog 'cogs.ponto_cog' carregado com sucesso.
+2025-07-31 23:25:34,672:INFO:discord_bot: Configurações do 'DynamicReportCog' carregadas. 5 modelos de relatório encontrados.
+2025-07-31 23:25:34,673:INFO:discord_bot: 5 Views de relatório persistentes registradas.
+2025-07-31 23:25:34,673:INFO:discord_bot: Comando de painel /ocorrencia criado dinamicamente.
+2025-07-31 23:25:34,673:INFO:discord_bot: Comando de painel /diligencia criado dinamicamente.
+2025-07-31 23:25:34,673:INFO:discord_bot: Comando de painel /unidades criado dinamicamente.
+2025-07-31 23:25:34,674:INFO:discord_bot: Comando de painel /pessoa criado dinamicamente.
+2025-07-31 23:25:34,674:INFO:discord_bot: Comando de painel /anp criado dinamicamente.
+2025-07-31 23:25:34,674:INFO:discord_bot: Cog 'cogs.dynamic_report_cog' carregado com sucesso.
+2025-07-31 23:25:34,675:INFO:discord_bot: Cog 'AusenciaCog' carregado e tarefa de verificação de ausências iniciada.
+2025-07-31 23:25:34,675:INFO:discord_bot: Banco de dados de ausências verificado/criado.
+2025-07-31 23:25:34,675:INFO:discord_bot: Cog 'cogs.ausencia_cog' carregado com sucesso.
+2025-07-31 23:25:34,676:INFO:discord_bot: Configurações do 'PromocaoCog' carregadas.
+2025-07-31 23:25:34,677:INFO:discord_bot: Cog 'PromocaoCog' carregado e tarefa de verificação iniciada.
+2025-07-31 23:25:34,678:INFO:discord_bot: Banco de dados de promoções verificado/criado.
+2025-07-31 23:25:34,678:INFO:discord_bot: Cog 'cogs.promocao_cog' carregado com sucesso.
+2025-07-31 23:25:35,603:INFO:discord_bot: Cog 'RelatorioPontoCog' carregado.
+2025-07-31 23:25:35,603:INFO:discord_bot: Cog 'cogs.relatorio_ponto_cog' carregado com sucesso.
+2025-07-31 23:25:35,604:INFO:discord_bot: Configurações do 'VerificarPromocaoCog' carregadas.
+2025-07-31 23:25:35,604:INFO:discord_bot: Cog 'VerificarPromocaoCog' carregado.
+2025-07-31 23:25:35,604:INFO:discord_bot: Cog 'cogs.verificar_promocao_cog' carregado com sucesso.
+2025-07-31 23:25:35,605:INFO:discord_bot: Cog 'AdvCog' carregado e tarefa de verificação de cargos iniciada.
+2025-07-31 23:25:35,606:INFO:discord_bot: Banco de dados de advertências verificado/criado.
+2025-07-31 23:25:35,607:INFO:discord_bot: Cog 'cogs.painel_adv_cog' carregado com sucesso.
+2025-07-31 23:25:35,607:INFO:discord_bot: Configurações do 'PorteArmaCog' carregadas com sucesso.
+2025-07-31 23:25:35,608:INFO:discord_bot: Cog 'PorteArmaCog' carregado e Views persistentes registradas.
+2025-07-31 23:25:35,609:INFO:discord_bot: Banco de dados 'portes_arma' verificado/criado.
+2025-07-31 23:25:35,609:INFO:discord_bot: Cog 'cogs.porte_arma_cog' carregado com sucesso.
+2025-07-31 23:25:35,610:INFO:discord_bot: Cog de Unidades carregado. View persistente e tarefa em background iniciadas.
+2025-07-31 23:25:35,611:INFO:discord_bot: Banco de dados das unidades verificado.
+2025-07-31 23:25:35,611:INFO:discord_bot: Cog 'cogs.units_cog' carregado com sucesso.
+2025-07-31 23:25:35,611:INFO:discord_bot: Configurações do 'BoletimCog' carregadas com sucesso.
+2025-07-31 23:25:35,612:INFO:discord_bot: Cog 'BoletimCog' carregado e View persistente registrada.
+2025-07-31 23:25:35,612:INFO:discord_bot: Cog 'cogs.boletim_cog' carregado com sucesso.
+2025-07-31 23:25:35,737:INFO:discord_bot: 10 comandos de barra sincronizados.
+2025-07-31 23:25:37,906:INFO:discord_bot: Executando tarefa de verificação de promoções...
+2025-07-31 23:25:37,906:INFO:discord_bot: Bot conectado como Polícia Federal
+2025-07-31 23:25:37,907:INFO:discord_bot: Executando tarefa de verificação de unidades expiradas...
+2025-07-31 23:25:37,925:INFO:discord_bot: Tarefa de verificação de promoções concluída.
+2025-07-31 23:25:38,408:INFO:discord_bot: Painel de status (ID: 1397470583146549268) atualizado.
+2025-07-31 23:26:10,479:INFO:discord_bot: Verificação de promoção forçada por Luan Torres.
+2025-07-31 23:26:34,680:INFO:discord_bot: Executando tarefa de verificação de promoções...
+2025-07-31 23:26:34,707:INFO:discord_bot: Tarefa de verificação de promoções concluída.
+2025-07-31 23:27:34,681:INFO:discord_bot: Executando tarefa de verificação de promoções...
+2025-07-31 23:27:34,705:INFO:discord_bot: Tarefa de verificação de promoções concluída.
+2025-07-31 23:28:16,454:INFO:discord_bot: Verificação de promoção forçada por Luan Torres.
+2025-07-31 23:28:34,680:INFO:discord_bot: Executando tarefa de verificação de promoções...
+2025-07-31 23:28:34,703:INFO:discord_bot: Tarefa de verificação de promoções concluída.
+2025-07-31 23:29:34,679:INFO:discord_bot: Executando tarefa de verificação de promoções...
+2025-07-31 23:29:34,701:INFO:discord_bot: Tarefa de verificação de promoções concluída.
+2025-07-31 23:29:42,240:INFO:discord_bot: Painel de status (ID: 1397470583146549268) atualizado.

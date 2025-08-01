@@ -1,0 +1,34 @@
+{
+  "GUILD_ID": 1395557882191151126,
+  "STAFF_ROLE_ID": 1395557882388287556,
+  "PONTO_ROLE_ID": 1395557882220642447,
+  "CLOCK_IN_CHANNEL_ID": 1396592268118589542,
+  "PONTO_STATUS_CHANNEL_ID": 1397426318915665982,
+    "PONTO_VOICE_CHANNEL_IDS": [
+    1395557885928411274
+  ],
+
+  "MESSAGES": {
+    "ERROR_NOT_IN_VOICE_CHANNEL": "Você precisa estar em um dos seguintes canais de voz para bater o ponto: {channel_names}",
+    "SUCCESS_AUTO_CLOCK_OUT": "Você saiu de serviço automaticamente por sair do canal de voz. Duração **{duration}**.",
+    "ERROR_ROLE_NOT_CONFIGURED": "ERRO: O cargo de Ponto não foi configurado corretamente.",
+    "ERROR_NO_PONTO_PERMISSION": "Você não tem permissão para bater o ponto.",
+    "ERROR_ALREADY_CLOCKED_IN": "Você já está em serviço. Faça o clock-out antes de iniciar uma nova sessão.",
+    "SUCCESS_CLOCK_IN": "Você fez o clock-in às **{time}**.",
+    "ERROR_NOT_CLOCKED_IN": "Você não está em serviço para poder fazer clock-out.",
+    "SUCCESS_CLOCK_OUT": "Clock-out realizado com sucesso! Duração: **{duration}**.",
+    "SUCCESS_PANEL_SENT": "Painel enviado com sucesso para o canal {channel_mention}!",
+    "ERROR_CHANNEL_NOT_FOUND": "Canal de ponto não encontrado. Verifique o ID no arquivo `config.json`.",
+    "ERROR_NO_COMMAND_PERMISSION": "Você não tem permissão para usar este comando.",
+    "INFO_NO_SESSIONS_FOUND": "{member_mention} não possui nenhuma sessão registrada.",
+    "INFO_TOTAL_TIME_HEADER": "Tempo total registrado para {member_mention}: **{duration}**.",
+    "STATUS_ON_DUTY": "\n\n🟢 **Status:** Em serviço há **{duration}**.",
+    "STATUS_OFF_DUTY": "\n\n🔴 **Status:** Fora de serviço.",
+    "HISTORY_EMBED_TITLE": "Histórico de {member_name}",
+    "HISTORY_SESSION_OUTPUT": "**Saída:** {end_time}\n**Duração:** {duration}",
+    "HISTORY_SESSION_ON_DUTY": "**Status:** Em serviço",
+    "HISTORY_SESSION_INPUT_TITLE": "▶️ Entrada: {start_time}"
+  }
+
+
+}

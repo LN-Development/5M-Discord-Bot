@@ -1,0 +1,53 @@
+{
+  "GUILD_ID": 1395557882191151126,
+  "PROMOTION_LOG_CHANNEL_ID": 1399887968143016068,
+  "ADMIN_ROLE_ID": 1395557882388287556,
+  "SUPER_ADMIN_ID": 292673830969933824,
+
+  "CARREIRA_ROLES": {
+    "Agente": {
+      "role_id": 1395557882463785051,
+      "max_classe": "Especial",
+      "multiplier": 1.0
+    },
+    "Escrivão": {
+      "role_id": 1395557882463785053,
+      "max_classe": "Especial",
+      "multiplier": 1.0
+    },
+    "Perito": {
+      "role_id": 1395557882463785053,
+      "max_classe": "Especial",
+      "multiplier": 1.0
+    },
+    "Delegado": {
+      "role_id": 1395557882463785054,
+      "max_classe": "Especial",
+      "multiplier": 1.0
+    }
+  },
+
+  "PADRAO_ROLES": {
+    "1": 1395557882422104147,
+    "2": 1395557882422104148,
+    "3": 1395557882422104149,
+    "4": 1395557882422104150,
+    "5": 1395557882422104151,
+    "6": 1395557882422104152
+  },
+
+  "CLASSE_ROLES": {
+    "Terceira": 1395557882422104154,
+    "Segunda": 1395557882447138970,
+    "Primeira": 1395557882447138971,
+    "Especial": 1395557882447138972
+  },
+
+  "TIME_REQUIREMENTS_HOURS": {
+    "2": 35,
+    "3": 70,
+    "4": 105,
+    "5": 140,
+    "6": 175
+  }
+}

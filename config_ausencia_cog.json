@@ -1,0 +1,26 @@
+{
+  "GUILD_ID": 1395557882191151126,
+  "LOG_CHANNEL_ID": 1395557884544155779,
+  "AUSENTE_ROLE_ID": 1395557882212384837,
+  "ADMIN_ROLE_ID": 1395557882388287556,
+  "PANEL_EMBED": {
+    "title": "Painel de Registro de Ausência",
+    "description": "Utilize os botões abaixo para gerenciar seu período de ausência.\n\n• **Registrar Ausência:** Inicia o processo para se ausentar.\n• **Encerrar Ausência:** Remove seu status de ausente caso retorne antes do previsto.",
+    "color": "#242429",
+    "footer": {
+      "text": "O uso indevido desta ferramenta pode resultar em penalidades."
+    }
+  },
+  "PANEL_BUTTONS": {
+    "register": {
+      "label": "Registrar Ausência",
+      "style": "primary",
+      "emoji": "✈️"
+    },
+    "end": {
+      "label": "Encerrar Ausência",
+      "style": "danger",
+      "emoji": "✅"
+    }
+  }
+}

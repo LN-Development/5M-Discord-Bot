@@ -1,0 +1,48 @@
+{
+  "GUILD_ID": 1395557882191151126,
+  "LOG_CHANNEL_ID": 1395557884359737364,
+  "ADMIN_ROLE_ID": 1395557882551996517,
+
+  "PANEL_EMBED": {
+    "title": "Painel de Aplicação de Advertências",
+    "description": "Utilize os botões abaixo para iniciar o processo de aplicação de uma advertência a um membro.\n\nVocê precisará do **ID do Usuário** para aplicar a punição.",
+    "color": "#242429",
+    "footer": {
+      "text": "Selecione a advertência para continuar."
+    }
+  },
+
+  "WARNING_SETTINGS": {
+    "advV": {
+      "name": "Advertência Administrativa",
+      "role_id": 1395557882212384836,
+      "duration_days": 15,
+      "embed_color": "#242429"
+    },
+    "adv1": {
+      "name": "Advertência 1",
+      "role_id": 1395557882212384835,
+      "duration_days": 30,
+      "embed_color": "#242429"
+    },
+    "adv2": {
+      "name": "Advertência 2",
+      "role_id": 1395557882212384834,
+      "duration_days": 60,
+      "embed_color": "#242429"
+    },
+    "adv3": {
+      "name": "Advertência 3",
+      "role_id": 1395557882212384833,
+      "duration_days": 90,
+      "embed_color": "#242429"
+    }
+  },
+  
+  "PANEL_BUTTONS": {
+    "advV": { "label": "Advertência Escrita", "style": "secondary" },
+    "adv1": { "label": "Advertência 1", "style": "primary" },
+    "adv2": { "label": "Advertência 2", "style": "success" },
+    "adv3": { "label": "Advertência 3", "style": "danger" }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "GUILD_ID": 1395557882191151126,
+  "ADMIN_ROLE_ID": 1395557882388287556,
+  "REPORT_BLUEPRINTS": [
+    {
+      "id": "ocorrencia",
+      "log_channel_id": 1399175362096926882,
+      "panel": {
+        "title": "Sistema de Relatório de Ocorrência",
+        "description": "Clique no botão abaixo para registrar uma nova ocorrência.",
+        "color": "#242429",
+        "button_label": "Registrar Ocorrência",
+        "button_emoji": "🚨"
+      },
+      "modal_title": "Relatório de Ocorrência",
+      "fields": [
+        { "label": "Policiais", "placeholder": "Nome dos Agentes" },
+        { "label": "Envolvidos na Ocorrência", "placeholder": "Nomes, IDs ou apelidos dos envolvidos" },
+        { "label": "Localização", "placeholder": "Ex: Praça Central, Bairro X, etc." },
+        { "label": "Descrição Detalhada", "placeholder": "Descreva o que aconteceu.", "style": "paragraph" }
+      ]
+    },
+        {
+      "id": "diligencia",
+      "log_channel_id": 1399176555594518568,
+      "panel": {
+        "title": "Sistema de Relatório de Diligência",
+        "description": "Clique no botão abaixo para registrar uma nova Diligência.",
+        "color": "#242429",
+        "button_label": "Registrar Diligência",
+        "button_emoji": "🚨"
+      },
+      "modal_title": "Relatório de Diligência",
+      "fields": [
+        { "label": "Policiais", "placeholder": "Seu nome completo" },
+        { "label": "Inquérito da Diligência", "placeholder": "Número do Inquérito" },
+        { "label": "Motivo", "placeholder": "Ex: Coletar Provas, Cumprir Mandados." },
+        { "label": "Descrição Detalhada", "placeholder": "Detalhe o que vai ser realizado.", "style": "paragraph" }
+      ]
+    },
+    {
+      "id": "unidades",
+      "log_channel_id": 1399172564999213197,
+      "panel": {
+        "title": "Sistema de Relatório de Unidades",
+        "description": "Clique no botão abaixo para criar o relatório semanal de unidade.",
+        "color": "#242429",
+        "button_label": "Registrar",
+        "button_emoji": "🚨"
+      },
+      "modal_title": "Relatório",
+      "fields": [
+        { "label": "Unidade", "placeholder": "Ex: COT/GPI/CAOP" },
+        { "label": "Nível de Atividade", "placeholder": "Alto/Baixo" },
+        { "label": "Ocorrências/Diligências", "placeholder": "Ex: Quantias numéricas" },
+        { "label": "Descrição Detalhada", "placeholder": "Detalhes.", "style": "paragraph" }
+      ]
+    },
+       {
+      "id": "pessoa",
+      "log_channel_id": 1395557885244608551,
+      "panel": {
+        "title": "Sistema de Registro de Pessoas",
+        "description": "Clique no botão abaixo para registrar uma nova pessoa.",
+        "color": "#242429",
+        "button_label": "Registrar pessoa",
+        "button_emoji": "👤"
+      },
+      "modal_title": "Relatório de pessoa",
+      "fields": [
+        { "label": "Policiais", "placeholder": "Seu nome completo" },
+        {
+          "label": "Registro da Pesssoa",
+          "placeholder": "Número do RG e nome"
+        },
+        {
+          "label": "Descrição Detalhada",
+          "placeholder": "Detalhes sobre a pessoa.",
+          "style": "paragraph"
+        }
+      ]
+    },
+    {
+      "id": "anp",
+      "log_channel_id": 1399183541719273572,
+      "panel": {
+        "title": "Sistema de Registro da ANP",
+        "description": "Clique no botão abaixo para relatar sobre ANP.",
+        "color": "#242429",
+        "button_label": "Relatório ANP",
+        "button_emoji": "👤"
+      },
+      "modal_title": "Relatório da ANP",
+      "fields": [
+        { "label": "Policiais", "placeholder": "Seu nome completo" },
+        { "label": "Registro da ANP", "placeholder": "Número do RG e nome" },
+        {
+          "label": "Descrição Detalhada",
+          "placeholder": "Detalhes sobre a academia.",
+          "style": "paragraph"
+        }
+      ]
+    }
+
+  ]
+}

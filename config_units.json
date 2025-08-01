@@ -1,0 +1,28 @@
+{
+  "GUILD_ID": 1395557882191151126,
+  "ADMIN_ROLE_ID": 1395557882388287556,
+  "DASHBOARD_CHANNEL_ID": 1396619924465520690,
+"UNIT_VOICE_CHANNEL_IDS": [
+    1395557885928411274
+  ],
+ "LOG_CHANNEL_ID": 1396629121685131334,
+
+  "MESSAGES": {
+    "ERROR_NOT_IN_VOICE_CHANNEL": "❌ Você precisa estar em um dos canais de voz designados para realizar esta ação: {channel_names}",
+    "SUCCESS_AUTO_LEAVE_UNIT": "👋 Você foi removido(a) automaticamente da sua unidade por desconectar do canal de voz.",
+    "UNIT_DELETED_EMPTY": "A unidade **{unit_name}** foi deletada automaticamente por ficar sem membros.",
+    "UNIT_DELETED_EXPIRED": "Sua unidade **{unit_name}** (`{unit_id}`) foi deletada automaticamente por ter expirado o prazo de 12 horas.",
+    "SUCCESS_LEAVE_UNIT": "👋 Você saiu da sua unidade.",
+    "ERROR_NOT_IN_UNIT": "❌ Você não está em nenhuma unidade para poder sair.",
+    "ERROR_ALREADY_OWNER": "❌ Você já é dono de uma unidade. Saia dela ou espere expirar para criar uma nova.",
+    "SUCCESS_UNIT_CREATED": "✅ Unidade **{unit_name}** criada! ID: `{unit_id}`",
+    "ERROR_UNIT_NOT_FOUND": "❌ Unidade não encontrada. Verifique o ID.",
+    "ERROR_ALREADY_IN_UNIT": "❌ Você já faz parte de outra unidade. Saia dela primeiro.",
+    "SUCCESS_JOIN_UNIT": "🤝 Bem-vindo(a) à unidade **{unit_name}**!",
+    "DASHBOARD_EMBED_TITLE": "Painel de Unidades",
+    "DASHBOARD_EMBED_NO_UNITS": "Nenhuma unidade criada ainda. Use o botão abaixo para criar a primeira!",
+    "SUCCESS_DASHBOARD_SENT": "✅ Painel de unidades enviado para {channel_mention}!",
+    "ERROR_DASHBOARD_CHANNEL_NOT_FOUND": "❌ Canal do painel não encontrado. Verifique o `DASHBOARD_CHANNEL_ID` no config."
+  }
+
+}

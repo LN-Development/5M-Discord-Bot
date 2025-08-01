@@ -1,0 +1,13 @@
+{
+  "GUILD_ID": 1395557882191151126,
+  "LOG_CHANNEL_ID": 1395557884783493194,
+  "ADMIN_ROLE_ID": 1397633433332613191,
+  "PANEL_EMBED": {
+    "title": "Registro de Porte de Arma",
+    "description": "Utilize o botão abaixo para iniciar o processo de registro de um novo porte de arma. Tenha em mãos todos os documentos e informações necessárias.",
+    "color": "#242429",
+    "footer": {
+      "text": "Polícia Federal - Sistema Nacional de Armas"
+    }
+  }
+}
