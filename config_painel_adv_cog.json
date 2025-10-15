@@ -14,7 +14,7 @@
 
   "WARNING_SETTINGS": {
     "advV": {
-      "name": "Advertência Administrativa",
+      "name": "Advertência Escrita",
       "role_id": 1395557882212384836,
       "duration_days": 15,
       "embed_color": "#242429"
@@ -22,13 +22,13 @@
     "adv1": {
       "name": "Advertência 1",
       "role_id": 1395557882212384835,
-      "duration_days": 30,
+      "duration_days": 90,
       "embed_color": "#242429"
     },
     "adv2": {
       "name": "Advertência 2",
       "role_id": 1395557882212384834,
-      "duration_days": 60,
+      "duration_days": 90,
       "embed_color": "#242429"
     },
     "adv3": {

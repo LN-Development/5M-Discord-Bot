@@ -83,7 +83,7 @@ class BoletimPanelView(ui.View):
             await interaction.response.send_modal(BoletimModal())
 
 # --- Módulo Principal (Cog) ---
-class BoletimCog(commands.Cog, name="BoletimCog"):
+class BoletimCog(commands.Cog, name="painel_boletim"):
     def __init__(self, bot: commands.Bot):
         self.bot = bot
         self.bot.add_view(BoletimPanelView(self))

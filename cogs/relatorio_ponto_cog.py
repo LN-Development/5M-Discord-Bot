@@ -12,6 +12,8 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 
+logger = logging.getLogger('discord_bot')
+
 # --- Carregar Configurações ---
 try:
     with open('config_relatorio_ponto.json', 'r', encoding='utf-8') as f:
@@ -19,19 +21,20 @@ try:
     GUILD_ID = config.get('GUILD_ID')
     ADMIN_ROLE_ID = config.get('ADMIN_ROLE_ID')
 except (FileNotFoundError, json.JSONDecodeError):
-    logging.critical("ERRO CRÍTICO: 'config_relatorio_ponto.json' não encontrado ou mal formatado.")
+    logger.critical("ERRO CRÍTICO: 'config_relatorio_ponto.json' não encontrado ou mal formatado.")
     GUILD_ID, ADMIN_ROLE_ID = None, None
 
 DB_FILE = "clock.sqlite" # O mesmo banco de dados do ponto_cog
 
 # --- Classe do Cog de Relatórios ---
-class RelatorioPontoCog(commands.Cog):
+class RelatorioPontoCog(commands.Cog, name="RelatorioPontoCog"):
     def __init__(self, bot: commands.Bot):
         self.bot = bot
         self.logger = logging.getLogger('discord_bot')
         self.logger.info("Cog 'RelatorioPontoCog' carregado.")
 
     @app_commands.command(name="relatorio_ponto", description="Gera um relatório completo de ponto e um gráfico de atividade para um membro.")
+    @app_commands.guilds(discord.Object(id=GUILD_ID)) # Adicionado para robustez
     @app_commands.checks.has_role(ADMIN_ROLE_ID)
     @app_commands.describe(
         membro="O membro para o qual o relatório será gerado."
@@ -46,7 +49,6 @@ class RelatorioPontoCog(commands.Cog):
                 query = "SELECT * FROM sessions WHERE staff_id = ? AND clock_out_time IS NOT NULL ORDER BY clock_in_time ASC"
                 async with db.execute(query, (membro.id,)) as cursor:
                     sessions_raw = await cursor.fetchall()
-                    # Converte para lista de dicionários para facilitar o uso com Pandas
                     sessions = [dict(row) for row in sessions_raw]
         except Exception as e:
             self.logger.error(f"Erro ao consultar o banco de dados de ponto: {e}", exc_info=True)
@@ -57,7 +59,6 @@ class RelatorioPontoCog(commands.Cog):
             await interaction.followup.send(f"ℹ️ Nenhum registro de ponto encontrado para **{membro.display_name}**.", ephemeral=True)
             return
             
-        # Nomes de arquivos temporários
         output_filename = f"relatorio_{membro.id}_{interaction.id}.txt"
         graph_filename = f"grafico_{membro.id}_{interaction.id}.png"
         
@@ -131,7 +132,7 @@ class RelatorioPontoCog(commands.Cog):
                 self.logger.info(f"Gráfico de atividade gerado para {membro.display_name}.")
             except Exception as e:
                 self.logger.error(f"Falha ao gerar o gráfico de atividade: {e}", exc_info=True)
-                graph_filename = None # Impede o envio do gráfico se houver erro
+                graph_filename = None
 
             # --- Envio dos Arquivos ---
             files_to_send = []
@@ -148,7 +149,6 @@ class RelatorioPontoCog(commands.Cog):
             self.logger.error(f"Erro ao criar ou enviar o arquivo de relatório: {e}", exc_info=True)
             await interaction.followup.send("❌ Ocorreu um erro ao gerar o arquivo de relatório.", ephemeral=True)
         finally:
-            # Garante que ambos os arquivos temporários sejam sempre deletados
             if os.path.exists(output_filename):
                 os.remove(output_filename)
             if os.path.exists(graph_filename):
@@ -158,7 +158,10 @@ class RelatorioPontoCog(commands.Cog):
     async def relatorio_ponto_error(self, interaction: discord.Interaction, error: app_commands.AppCommandError):
         """Handler de erro para o comando."""
         if isinstance(error, app_commands.MissingRole):
-            await interaction.response.send_message("❌ Você não tem permissão para usar este comando.", ephemeral=True)
+            if not interaction.response.is_done():
+                await interaction.response.send_message("❌ Você não tem permissão para usar este comando.", ephemeral=True)
+            else:
+                await interaction.followup.send("❌ Você não tem permissão para usar este comando.", ephemeral=True)
         else:
             self.logger.error(f"Erro inesperado no comando /relatorio_ponto: {error}", exc_info=True)
             if not interaction.response.is_done():
@@ -166,9 +169,10 @@ class RelatorioPontoCog(commands.Cog):
             else:
                 await interaction.followup.send("Ocorreu um erro inesperado.", ephemeral=True)
 
-# --- Função Setup para Carregar o Cog ---
+# --- FUNÇÃO SETUP (ADICIONADA) ---
+# Esta função é o ponto de entrada que permite que o init.py carregue este módulo.
 async def setup(bot: commands.Bot):
     if not all([GUILD_ID, ADMIN_ROLE_ID]):
-        logging.error("Não foi possível carregar 'RelatorioPontoCog' devido a configs ausentes em 'config_relatorio_ponto.json'.")
+        logger.error("Não foi possível carregar 'RelatorioPontoCog' devido a configs ausentes em 'config_relatorio_ponto.json'.")
         return
     await bot.add_cog(RelatorioPontoCog(bot))

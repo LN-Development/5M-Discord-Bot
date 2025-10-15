@@ -1,0 +1,50 @@
+{
+  "log_channel_id": 1396629121685131334,
+  "support_role_ids": [
+    1395557882551996519
+  ],
+  "ticket_panels": {
+    "suporte_tecnico": {
+      "display_name": "Suporte Técnico",
+      "panel_title": "Painel de Suporte Técnico",
+      "panel_description": "Clique no botão abaixo para abrir um ticket de suporte técnico.",
+      "button_label": "Abrir Ticket de Suporte",
+      "button_emoji": "💻",
+      "category_id": 1395868530083369002,
+      "modal_title": "Formulário de Suporte Técnico",
+      "modal_fields": [
+        {
+          "label": "Qual é o seu problema?",
+          "placeholder": "Ex: Meu microfone não está funcionando no Discord.",
+          "style": "paragraph"
+        },
+        {
+          "label": "O que você já tentou fazer?",
+          "placeholder": "Ex: Reiniciei o PC, reinstalei o Discord.",
+          "style": "paragraph"
+        }
+      ]
+    },
+    "denuncia": {
+      "display_name": "Denunciar um Usuário",
+      "panel_title": "Painel de Denúncias",
+      "panel_description": "Use este painel para denunciar um usuário que quebrou as regras.",
+      "button_label": "Fazer uma Denúncia",
+      "button_emoji": "⚖️",
+      "category_id": 1395868530083369002,
+      "modal_title": "Formulário de Denúncia",
+      "modal_fields": [
+        {
+          "label": "Quem você quer denunciar?",
+          "placeholder": "Cole o ID do usuário ou mencione-o aqui.",
+          "style": "short"
+        },
+        {
+          "label": "Descreva a situação com detalhes",
+          "placeholder": "Forneça o máximo de detalhes possível.",
+          "style": "paragraph"
+        }
+      ]
+    }
+  }
+}

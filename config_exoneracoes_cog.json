@@ -1,0 +1,13 @@
+{
+  "GUILD_ID": 1395557882191151126,
+  "LOG_CHANNEL_ID": 1395557884544155776,
+  "ADMIN_ROLE_ID": 1395557882388287556,
+  "PANEL_EMBED": {
+    "title": "Painel de Registro de Exonerações",
+    "description": "Utilize o botão abaixo para registrar a exoneração de um membro. Preencha todas as informações de forma clara e objetiva.",
+    "color": "#992d22",
+    "footer": {
+      "text": "Sistema de Gestão de Recursos Humanos"
+    }
+  }
+}

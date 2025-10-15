@@ -1,0 +1,13 @@
+{
+  "GUILD_ID": 1395557882191151126,
+  "LOG_CHANNEL_ID": 1414370505422540970,
+  "ADMIN_ROLE_ID": 1395557882505724042,
+  "PANEL_EMBED": {
+    "title": "Painel de Registro de Infrações",
+    "description": "Utilize o botão abaixo para registrar uma nova infração. Forneça as informações de forma clara e objetiva.",
+    "color": "#e74c3c",
+    "footer": {
+      "text": "Sistema de Controle Disciplinar"
+    }
+  }
+}

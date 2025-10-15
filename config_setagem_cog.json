@@ -1,0 +1,19 @@
+{
+  "GUILD_ID": 1395557882191151126,
+  "ADMIN_ROLE_ID": 1395557882388287556,
+  "LOG_CHANNEL_ID": 1397442299532939394,
+  "PANEL_EMBED": {
+    "title": "Painel de Setagem Inicial",
+    "description": "Se você é um novo membro e precisa configurar seu nome e cargos iniciais, clique no botão abaixo para iniciar o processo de solicitação.\n\nSua solicitação será analisada pela administração.",
+    "color": "#1abc9c",
+    "footer": {
+      "text": "Sistema de Setagem Automática"
+    }
+  },
+  "ROLES_TO_ADD": [
+    1395557882220642446,
+    1395557882220642447,
+    1395557882447138977,
+    1395557882271109265
+  ]
+}

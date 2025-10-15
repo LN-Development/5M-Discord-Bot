@@ -1,0 +1,15 @@
+{
+  "GUILD_ID": 1395557882191151126,
+  "ADMIN_ROLE_ID": 1397633433332613191,
+  "LOG_CHANNEL_ID": 1414380371239370773,
+  "NOTIFICATION_CHANNEL_ID": 1414380371239370773,
+  "REGISTRATION_VALIDITY_DAYS": 7,
+  "PANEL_EMBED": {
+    "title": "Painel de Registro de Venda de Armas",
+    "description": "Utilize o botão abaixo para registrar a venda de uma nova arma no sistema SINARM.",
+    "color": "#e67e22",
+    "footer": {
+      "text": "SINARM - Sistema Nacional de Armas"
+    }
+  }
+}

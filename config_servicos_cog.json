@@ -1,0 +1,13 @@
+{
+  "GUILD_ID": 1395557882191151126,
+  "LOG_CHANNEL_ID": 1397442299532939394,
+  "ADMIN_ROLE_ID": 1395557882388287556,
+  "PANEL_EMBED": {
+    "title": "Painel de Solicitação de Serviços",
+    "description": "Utilize o botão abaixo para solicitar um serviço. Preencha todas as informações de forma clara e objetiva.",
+    "color": "#242429",
+    "footer": {
+      "text": "Polícia Federal."
+    }
+  }
+}
